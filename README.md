@@ -1,12 +1,37 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built with **React.js** and **Tailwind CSS**. This project showcases my skills, projects, and professional experience in a clean and responsive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built using React.js for a modern, component-based UI.
+- Styled with Tailwind CSS for utility-first, responsive design.
+- Includes sections like About Me, Projects, Skills, and Contact.
+- Responsive layout optimized for desktops, tablets, and mobile devices.
+- Interactive project cards with links to live demos and GitHub repos.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- Vite (for build tooling and development server)
+
+## Live Demo
+
+🚀 Check out the live portfolio site here: [https://priyank-vaghani.netlify.app](https://priyank-vaghani.netlify.app)
+
+## Project Structure
+
+- `src/` — React components and app logic
+- `public/` — Static assets like images
+- `tailwind.config.js` — Tailwind CSS configuration
+- `vite.config.js` — Vite configuration file
+
+## How to Run Locally
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/yourusername/your-portfolio.git
+   cd your-portfolio
