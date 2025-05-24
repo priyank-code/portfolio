@@ -1,0 +1,222 @@
+const themes = [
+  {
+    name: "Minimal Dark",
+    background: "#1A1A1A",
+    cardColor: "#2C2C2C",
+    objectColor: "#3F3F3F",
+    ringColor: "#00FFFF",
+    textCol: "#E0E0E0",
+    techStack: "#00BFFF"
+  },
+  {
+    name: "Mint Breeze",
+    background: "#F0FFF4",
+    cardColor: "#CCFBF1",
+    objectColor: "#0D9488",
+    ringColor: "#2DD4BF",
+    textCol: "#065F46",
+    techStack: "#5EEAD4"
+  },
+  {
+    name: "Royal Blue",
+    background: "#EFF6FF",
+    cardColor: "#DBEAFE",
+    objectColor: "#2563EB",
+    ringColor: "#3B82F6",
+    textCol: "#1E3A8A",
+    techStack: "#BFDBFE"
+  },
+  {
+    name: "Soft Blush",
+    background: "#FFF1F2",
+    cardColor: "#FFE4E6",
+    objectColor: "#DB2777",
+    ringColor: "#F472B6",
+    textCol: "#831843",
+    techStack: "#FBCFE8"
+  },
+  {
+    name: "Carbon",
+    background: "#121212",
+    cardColor: "#1E1E1E",
+    objectColor: "#292929",
+    ringColor: "#00ADB5",
+    textCol: "#EEEEEE",
+    techStack: "#00FFF5"
+  },
+  {
+    name: "Grape Soda",
+    background: "#F5F3FF",
+    cardColor: "#DDD6FE",
+    objectColor: "#7C3AED",
+    ringColor: "#A78BFA",
+    textCol: "#4C1D95",
+    techStack: "#C4B5FD"
+  },
+  {
+    name: "Sunbeam",
+    background: "#FFFBEB",
+    cardColor: "#FEF3C7",
+    objectColor: "#F59E0B",
+    ringColor: "#FBBF24",
+    textCol: "#78350F",
+    techStack: "#FDE68A"
+  },
+  {
+    name: "Ash Gray",
+    background: "#F3F4F6",
+    cardColor: "#E5E7EB",
+    objectColor: "#6B7280",
+    ringColor: "#9CA3AF",
+    textCol: "#374151",
+    techStack: "#D1D5DB"
+  }
+];
+
+const themes = [
+  {
+    name: "Default",
+    background: "#E7E7E7",
+    cardColor: "#FFFFFF",
+    objectColor: "#D1D5DB",
+    ringColor: "#1F2937",
+    textCol: "#374151",
+    techStack: "#BFDBFE"
+  },
+  {
+    name: "Light",
+    background: "#F9FAFB",
+    cardColor: "#FFFFFF",
+    objectColor: "#E5E7EB",
+    ringColor: "#3B82F6",
+    textCol: "#4B5563",
+    techStack: "#DBEAFE"
+  },
+  {
+    name: "Dark",
+    background: "#111827",
+    cardColor: "#1F2937",
+    objectColor: "#E5E7EB",
+    ringColor: "#60A5FA",
+    textCol: "#D1D5DB",
+    techStack: "#3B82F6"
+  },
+  {
+    name: "Ocean",
+    background: "#0F172A",
+    cardColor: "#1E293B",
+    objectColor: "#38BDF8",
+    ringColor: "#0EA5E9",
+    textCol: "#E0F2FE",
+    techStack: "#0369A1"
+  },
+  {
+    name: "Sunset",
+    background: "#FFF7ED",
+    cardColor: "#FFE5B4",
+    objectColor: "#EA580C",
+    ringColor: "#FB923C",
+    textCol: "#7C2D12",
+    techStack: "#FED7AA"
+  },
+  {
+    name: "Emerald",
+    background: "#ECFDF5",
+    cardColor: "#D1FAE5",
+    objectColor: "#059669",
+    ringColor: "#10B981",
+    textCol: "#065F46",
+    techStack: "#6EE7B7"
+  },
+  {
+    name: "Dracula",
+    background: "#282A36",
+    cardColor: "#44475A",
+    objectColor: "#F8F8F2",
+    ringColor: "#BD93F9",
+    textCol: "#CCCCCC",
+    techStack: "#FF79C6"
+  },
+  {
+    name: "Cyberpunk",
+    background: "#0F0F1C",
+    cardColor: "#1A1A2C",
+    objectColor: "#FF00C8",
+    ringColor: "#00FFE0",
+    textCol: "#C7C7D1",
+    techStack: "#FFF700"
+  },
+  {
+    name: "Lavender",
+    background: "#F5F3FF",
+    cardColor: "#EDE9FE",
+    objectColor: "#8B5CF6",
+    ringColor: "#C4B5FD",
+    textCol: "#6D28D9",
+    techStack: "#DDD6FE"
+  },
+  {
+    name: "Rose",
+    background: "#FFF1F2",
+    cardColor: "#FECACA",
+    objectColor: "#BE123C",
+    ringColor: "#FB7185",
+    textCol: "#9F1239",
+    techStack: "#FECDD3"
+  },
+  {
+    name: "Slate",
+    background: "#F1F5F9",
+    cardColor: "#E2E8F0",
+    objectColor: "#334155",
+    ringColor: "#64748B",
+    textCol: "#475569",
+    techStack: "#CBD5E1"
+  },
+
+  {
+    name: "Forest",
+    background: "#F0FDF4",
+    cardColor: "#DCFCE7",
+    objectColor: "#166534",
+    ringColor: "#22C55E",
+    textCol: "#14532D",
+    techStack: "#86EFAC"
+  },
+  {
+    name: "Steel",
+    background: "#F3F4F6",
+    cardColor: "#E5E7EB",
+    objectColor: "#1F2937",
+    ringColor: "#9CA3AF",
+    textCol: "#374151",
+    techStack: "#D1D5DB"
+  },
+  {
+    name: "Peach",
+    background: "#FFF7ED",
+    cardColor: "#FFE4E6",
+    objectColor: "#DB2777",
+    ringColor: "#F472B6",
+    textCol: "#9D174D",
+    techStack: "#FBCFE8"
+  },
+  {
+    name: "Coffee",
+    background: "#EFEBE9",
+    cardColor: "#D7CCC8",
+    objectColor: "#4E342E",
+    ringColor: "#A1887F",
+    textCol: "#3E2723",
+    techStack: "#BCAAA4"
+  },
+  {
+    name: "Skyline",
+    background: "#F0F9FF",
+    cardColor: "#E0F2FE",
+    objectColor: "#0284C7",
+    ringColor: "#38BDF8",
+    textCol: "#0369A1",
+    techStack: "#BAE6FD"
+  }
+];
