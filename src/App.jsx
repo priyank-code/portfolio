@@ -2,11 +2,14 @@ import React, { useContext } from "react";
 import { PortfolioContext } from "./Context/Context";
 import First from "./Components/First";
 import Second from "./Components/Second";
+import Cursor from "./Components/SimpleCursor";
+
 
 const App = () => {
 const { theme } = useContext(PortfolioContext);
 
   return <>
+    <Cursor />
     <div className={`lg:flex flex-col p-5 md:p-10 text-gray-200 select-none transition-all duration-500 ease-in-out`} style={{backgroundColor: theme.background, color: theme.textCol}}>
       <div
         className={`grid lg:grid-cols-3 grid-cols-1 gap-8`}

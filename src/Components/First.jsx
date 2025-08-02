@@ -16,7 +16,7 @@ import {
   faMedium,
   faDev,
 } from "@fortawesome/free-brands-svg-icons";
-import Portfolio from "../assets/Portfolio1.png";
+import Portfolio from "../assets/Portfolio3.png";
 
 const First = () => {
   const { techStack, themes, setTheme, theme } = useContext(PortfolioContext);
@@ -148,7 +148,7 @@ const First = () => {
             <FontAwesomeIcon icon={faLocationDot} />
             Based in:
           </p>
-          <p>Surat, Gujarat</p>
+          <p>Bhavnagar, Gujarat</p>
         </div>
 
         <div className="flex flex-row justify-between items-center text-sm">

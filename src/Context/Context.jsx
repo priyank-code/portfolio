@@ -5,15 +5,14 @@ export const PortfolioContext = createContext();
 const MyProvider = ({ children }) => {
   const techStack = [
     "React.js",
+    "MongoDB", "Express.js", "Node.js",
     "Javascript",
     "PHP",
-    "ASP.NET",
     "MySQL",
     "Git",
     "Rest API",
     "CSS",
-    "Tailwind",
-    "Java",
+    "Tailwindcss"
   ];
   const themes = [
     {
