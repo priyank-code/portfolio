@@ -11,12 +11,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
-  faXTwitter,
   faLinkedinIn,
   faMedium,
   faDev,
 } from "@fortawesome/free-brands-svg-icons";
-import Portfolio from "../assets/Portfolio3.png";
+import Portfolio from "../assets/Portfolio.png";
 
 const First = () => {
   const { techStack, themes, setTheme, theme } = useContext(PortfolioContext);
@@ -118,7 +117,7 @@ const First = () => {
 
         <h2 className="text-center font-bold text-2xl">Priyank Vaghani</h2>
         <p className="font-mono justify-center text-center">
-          Frontend Developer | React.js Specialist | JavaScript, REST APIs, Git
+          MERN Stack Developer | React.js Specialist | JavaScript, REST APIs, Git, Node.js, Express.js, MongoDB
         </p>
         <button
           className="text-sm font-medium border-1 p-2 w-40 mx-auto rounded-sm"
@@ -169,14 +168,6 @@ const First = () => {
 
         <div className="flex flex-row justify-between items-center text-sm">
           <p className="flex flex-row gap-2 items-center font-medium">
-            <FontAwesomeIcon icon={faXTwitter} />
-            X:
-          </p>
-          <a href="https://x.com/">X</a>
-        </div>
-
-        <div className="flex flex-row justify-between items-center text-sm">
-          <p className="flex flex-row gap-2 items-center font-medium">
             <FontAwesomeIcon icon={faLinkedinIn} />
             LinkedIn:
           </p>
@@ -188,8 +179,8 @@ const First = () => {
             <FontAwesomeIcon icon={faEnvelope} />
             Email:
           </p>
-          <a href="mailto:vaghanipriyank1@gmail.com">
-            vaghanipriyank1@gmail.com
+          <a href="mailto:priyankv.dev@gmail.com">
+            priyankv.dev@gmail.com
           </a>
         </div>
       </div>
@@ -222,11 +213,21 @@ const First = () => {
           style={{ borderColor: theme.ringColor }}
         >
           <div className="relative before:absolute before:top-1 before:-left-[30.5px] before:w-3 before:h-3 before:rounded-full before:bg-[#e6e5e5]">
-            <p className=" text-sm">April 2025 - Present</p>
-            <p className="font-semibold">Frontend Developer Intern</p>
+            <p className=" text-sm">May 2025 - Aug 2025</p>
+            <p className="font-semibold">MERN Stack Developer</p>
             <p className="">
               <a href="https://connectgoinfoware.com" target="_blank">
                 ConnectGo infoware
+              </a>
+            </p>
+          </div>
+
+          <div className="relative before:absolute before:top-1 before:-left-[30.5px] before:w-3 before:h-3 before:rounded-full before:bg-[#e6e5e5]">
+            <p className=" text-sm">Feb 2024 - Mar 2025</p>
+            <p className="font-semibold">MERN Stack Developer</p>
+            <p className="">
+              <a href="https://geniustechsolution.in" target="_blank">
+                Genius Tech Solution
               </a>
             </p>
           </div>
